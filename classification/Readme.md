@@ -7,7 +7,7 @@
     Make sure to set the data_path variable in main.py to the data folder path
 
 # 3. OrthOOD 
-    ID: FMNIST, OOD: MNIST
+    - ID: FMNIST, OOD: MNIST
 
 ## Train OrthOOD 
 
@@ -19,7 +19,7 @@
 
 
 # 4. CosOOD 
-    ID: FMNIST, OOD: MNIST
+    - ID: FMNIST, OOD: MNIST
 
 ## Train CosOOD 
     
