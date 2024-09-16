@@ -25,6 +25,8 @@ Note - Make sure the train set is used in the validation function, see line 532 
 
     python3 main.py --model deeplabv3plus_resnet101 --dataset cityscapes --gpu_id 0  --lr 0.01  --crop_size 768 --batch_size 4 --output_stride 16 --data_root /data/cityscapes --model_tag model_orth --random_seed 5  --total_itrs 10000 --ckpt checkpoints/cityscapes_best.pth --baseline --cent_path output/best_cents.npz --orthogonal_loss --mu 250.0 
 
+    mu: 250
+
 ## Evaluate OrthOOD  
 OOD: Lost & Found 
 
