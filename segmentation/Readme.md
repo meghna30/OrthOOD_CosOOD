@@ -19,7 +19,7 @@
 
     python3 main.py --model deeplabv3plus_resnet101 --dataset cityscapes --gpu_id 0  --lr 0.1  --crop_size 768 --batch_size 4 --output_stride 16 --data_root /data/cityscapes --model_tag /test --test_only --ckpt checkpoints/cityscapes_best.pth  --compute_centroids --out_file best_cents --baseline
 
-Note - Make sure the trainset is used in the validation functions, see line 532 in main.py 
+Note - Make sure the train set is used in the validation function, see line 532 in main.py 
 
 ## Train OrthOOD  
 
