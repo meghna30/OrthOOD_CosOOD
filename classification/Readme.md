@@ -17,6 +17,8 @@
 
     python main.py --dataset1 fmnist --dataset2 mnist --multiple_dataset True --ID_tasks 10 --total_tasks 10 --batch_size 32 --lr 0.0001 --epochs 20 --load_checkpoint True --save_path test/orth --opl True --mu 1.0
 
+## Hyperpameter mu 
+  CIFAR10: 0.5, FMNIST: 10, GTSRB: 0.5, SVHN: 0.25
 
 # 4. CosOOD 
   ID: FMNIST, OOD: MNIST
@@ -28,6 +30,7 @@
 ## Evaluate CosOOD 
 
     python main.py --dataset1 fmnist --dataset2 mnist --multiple_dataset True --ID_tasks 10 --total_tasks 10 --batch_size 32 --lr 0.0001 --epochs 20 --load_checkpoint True --save_path test/cosine_sim --cosine_sim True 
+
 
 
 
