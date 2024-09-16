@@ -5,7 +5,7 @@
 
     - DownLoad Cityscapes, Lost & Found and Road Anomaly datasets. 
 
-    - Train the base segmentation or use the pretrained model by --
+    - Train the base segmentation
 
     -  Evaluate for ID accuracy 
 
